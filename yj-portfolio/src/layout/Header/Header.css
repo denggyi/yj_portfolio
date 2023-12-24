@@ -1,0 +1,69 @@
+/* Importing Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Navigation link styles */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 6rem; /* Adjust the gap as needed */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.nav-links li {
+    transition: transform 0.15s ease-in-out;
+}
+
+.nav-links li:hover {
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+/* Link styles */
+.nav-links a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    position: relative;
+}
+
+/* Hover effect for links */
+.nav-links a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background: #fff380;
+    transition: width 0.25s ease-in-out;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+.nav-links a:hover::after, .nav-links .active a::after {
+    width: 100%;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    /* Add responsive styles here if needed */
+}
+
+/* word highlight effect*/
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #fff380;
+  }

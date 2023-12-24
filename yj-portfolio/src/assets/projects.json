@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "title": "Northwind Trades Data Analysis",
+        "summary": "Data Visualization, Tableau, Business Intelligence, Forecasting, Analysis",
+        "description": "Dataset Evaluation\n\nPost-COVID Business Impact Analysis: Conducted a comprehensive dataset evaluation to identify strategies for increasing sales and reducing costs in the aftermath of the COVID-19 pandemic, addressing the significant changes it brought to various business aspects.\n\nCustomer Country Data Analysis: Examined business performance across different regions to identify growth opportunities. Analyzed trends over time in connection with product categories to understand regional product demands.\n\nMonthly Average Order Quantities: Investigated fluctuations in product demand, highlighting trends and potential opportunities based on monthly data.\n\nProduct Category Insights: Identified popular product categories, suggesting the need for additional data sources for deeper understanding of each category's appeal.\n\nProduct Performance Over Time: Analyzed product success and trends, informing potential growth areas and guiding product development and marketing strategies.\n\nOrder Price Total Evaluation: Assessed overall sales performance by examining total order prices, pinpointing strong and weak months for targeted improvement.",    
+        "images": ["../../../public/project1_1.png", "../../../public/project1_2.png", "../../../public/project1_3.png"]
+    },
+    {
+        "id": "2",
+        "title": "Resort Database Development",
+        "summary": "Relational Database, Microsoft SQL Server, Gliffy, EERD",
+        "description": "Resort Database Development\n\nDatabase Architecture Development: Developed intricate ERD and EERD using Gliffy to establish a strong foundational database schema.\n\nDatabase Implementation with SQL Server: Executed database creation and management tasks, including table structures, data insertion, and stored procedures, leveraging SQL Server for optimal data handling.\n\nScalability Testing: Successfully integrated and tested records to validate the database's capacity for handling extensive data, indicative of the system’s readiness for business growth.\n\nPerformance Optimization: Enhanced database efficiency by targeted performance tuning, primarily through the application of effective indexing strategies.",
+        "images": ["../../../public/project2_1.png", "../../../public/project2_2.png", "../../../public/project2_3.png"]
+    },    
+    {
+        "id": "3",
+        "title": "University Student Database Development",
+        "summary": "Relational Database, Microsoft SQL Server, Generative AI",
+        "description": "University Student Database Development\n\nEducational Database Initiative: Created a Database Systems course assignment to investigate SQL indexing efficiency within large datasets.\n\nDatabase Table Construction: Created a suite of 10 interrelated tables, including Student, TuitionFee, Scholarship, DormitoryAssign, Room, Enrollment, Course, Instructors, and Projects, each featuring a minimum of five detailed attributes.\n\nData Generation and Integration: Utilized generative AI and Python scripting to produce a diverse set of 1 million records for comprehensive database interaction.\n\nSQL Server Implementation: Implemented the database on SQL Server, ensuring data integrity and reducing redundancy to maintain a high standard of data quality.",
+        "images": ["../../../public/project3_1.png", "../../../public/project3_2.png", "../../../public/project3_3.png"]
+    },    
+    {
+        "id": "4",
+        "title": "SSRS Reporting",
+        "summary": "Microsoft SQL Server, Data Warehouse, Visual Studio, Business Intelligence",
+        "description": "SSRS Reporting Project\n\nProductSales Trends Report: Developed a report using SSRS in Visual Studio, extracting and showcasing total internet sales data from the data warehouse, categorized by product (by English name) and year. Ensured data presentation clarity by sorting primarily by ProductName and then by CalendarYear, and successfully deployed the project on SQL Server for organizational use.\n\nQuarterly Sales Analysis Enhancement: Developed a report using SSRS in Visual Studio, detailing total internet sales by product, year, and now including calendar quarter. Sorting hierarchy by ProductName, CalendarYear, and CalendarQuarter to facilitate nuanced performance insights, with SQL queries and top 10 results exemplifying the enhanced reporting capability.",
+        "images": ["../../../public/project4_1.png", "../../../public/project4_2.png"]
+    }    
+]
