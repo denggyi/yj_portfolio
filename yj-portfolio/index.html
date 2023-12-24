@@ -2,9 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link id="emojiFavicon" rel="icon" type="image/png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Yoonjeong Park</title>
+    <script type="text/javascript">
+      window.onload = function() {
+        var canvas = document.createElement('canvas');
+        canvas.width = 64; // Set the size of the canvas
+        canvas.height = 64;
+
+        var ctx = canvas.getContext('2d');
+        ctx.font = '64px serif'; // Set the font size and style
+        ctx.fillText('🐥', 0, 64); // Draw the emoji
+
+        var link = document.getElementById('emojiFavicon');
+        link.href = canvas.toDataURL(); // Set the favicon
+      };
+    </script>
   </head>
   <body>
     <div id="root"></div>

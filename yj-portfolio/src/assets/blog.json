@@ -3,14 +3,14 @@
         "id": "1",
         "title": "CES 2023",
         "summary": "Hyundai Mobis Volunteer",
-        "description": "Volunteered for Hyndai Mobis",
-        "images": ["../../../public/ces2023_1.jpeg", "../../../public/ces2023_2.jpeg", "../../../public/ces2023_3.jpeg"]    
+        "description": "Volunteered for Hyundai Mobis",
+        "images": ["/ces2023_1.jpeg", "/ces2023_2.jpeg", "/ces2023_3.jpeg"]    
     },
     {
         "id": "2",
         "title": "Volunteer",
         "summary": "Fund Raising for Children",
         "description": "In front of Walmart in Tucson",
-        "images": ["../../../public/volunteer_1.jpeg", "../../../public/volunteer_2.jpeg"]    
+        "images": ["/volunteer_1.jpeg", "/volunteer_2.jpeg"]    
     }
 ]
