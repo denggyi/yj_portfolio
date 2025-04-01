@@ -1,12 +1,48 @@
-## Project Structure
+src
+├── assets
+│   ├── blog.json             # Data for blog posts
+│   ├── projects.json         # Data for projects (including Business Analytics)
+│   ├── cloud.png             # Example image (used somewhere in the site)
+│   ├── data_model.png        # Visual/diagram for data modeling
+│   ├── data_warehouse.png    # Visual/diagram for data warehousing
+│   ├── profile_1.jpeg        # Profile picture (can be replaced or updated)
+│   ├── profile_2.jpeg
+│   ├── profile_3.jpeg
+│   ├── profile_4.jpeg
+│   ├── react.svg             # React logo
+│   └── test.png              # Placeholder/test image
 
-src ├── assets │ ├── blog.json # JSON data for blog posts │ ├── projects.json # JSON data for projects (including business analytics) │ ├── cloud.png # Example image (used in the site) │ ├── data_model.png # Example image (used in the site) │ ├── data_warehouse.png # Example image (used in the site) │ ├── profile_1.jpeg # Example profile picture │ ├── profile_2.jpeg │ ├── profile_3.jpeg │ ├── profile_4.jpeg │ ├── react.svg # Example image (React logo) │ └── test.png # Just a placeholder/test image
+├── components
+│   ├── About
+│   │   ├── About.jsx         # "About Me" section/component
+│   │   └── About.css         # Styling for the About component
+│   ├── Blogs
+│   │   ├── Blogs.jsx         # Lists all blog posts
+│   │   ├── Blog_detail.jsx   # Shows details of a single blog post
+│   │   ├── Blogs.css         # Styling for the blog list
+│   │   └── Blog_detail.css   # Styling for the blog detail view
+│   ├── Home
+│   │   ├── Home.jsx          # Main landing/homepage component
+│   │   └── Home.css          # Styling for the Home component
+│   └── Projects
+│       ├── Projects.jsx      # Lists all projects
+│       ├── Project_detail.jsx# Shows detailed view for a single project
+│       ├── Projects.css      # Styling for the projects list
+│       └── Project_detail.css# Styling for the project detail view
 
-├── components │ ├── About │ │ ├── About.jsx # "About Me" component │ │ └── About.css # Styling for About component │ ├── Blogs │ │ ├── Blogs.jsx # Lists all blog posts │ │ ├── Blog_detail.jsx # Shows a single blog post in detail │ │ ├── Blogs.css # Styling for blog list │ │ └── Blog_detail.css # Styling for blog detail │ ├── Home │ │ ├── Home.jsx # Main landing/homepage component │ │ └── Home.css # Styling for Home component │ └── Projects │ ├── Projects.jsx # Lists all projects │ ├── Project_detail.jsx # Shows details for a single project │ ├── Projects.css # Styling for projects list │ └── Project_detail.css # Styling for project detail
+├── layout
+│   ├── Header
+│   │   ├── Header.jsx        # Header (top navigation/menu)
+│   │   └── Header.css        # Header styling
+│   └── Footer
+│       ├── Footer.jsx        # Footer (bottom of the page)
+│       └── Footer.css        # Footer styling
 
-├── layout │ ├── Header │ │ ├── Header.jsx # Header (top navigation/menu) │ │ └── Header.css # Header styling │ └── Footer │ ├── Footer.jsx # Footer (bottom of the page) │ └── Footer.css # Footer styling
+├── App.css                    # Global or app-level styling
+├── App.jsx                    # Main app component (could include routes/layout)
+├── index.css                  # Global base styling (often including resets)
+└── main.jsx                   # Entry point that renders <App /> into the DOM
 
-├── App.css # Global or app-level styling ├── App.jsx # Main application component (could hold routes/layout) ├── index.css # Global base styling (often including resets) └── main.jsx # Entry point that renders <App /> to the DOM
 
 
 ### Explanation of Key Files and Folders
